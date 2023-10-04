@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -135,6 +135,12 @@
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="no"/>
+<layer number="156" name="gesam-Maß" color="7" fill="1" visible="no" active="no"/>
+<layer number="157" name="FaceMchng" color="7" fill="1" visible="no" active="no"/>
+<layer number="158" name="FaceMMeas" color="7" fill="1" visible="no" active="no"/>
+<layer number="159" name="Geh-Bear2" color="7" fill="1" visible="no" active="no"/>
+<layer number="160" name="Topologie" color="7" fill="1" visible="no" active="no"/>
+<layer number="161" name="tomplace2" color="7" fill="1" visible="no" active="no"/>
 <layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="no"/>
 <layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="no"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="no" active="no"/>
@@ -182,16 +188,49 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="no"/>
 <layer number="253" name="Extra" color="7" fill="1" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="no"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="101.6" y2="0" width="0.1524" layer="20"/>
-<wire x1="0" y1="0" x2="0" y2="41.2" width="0.1524" layer="20"/>
-<wire x1="0" y1="41.2" x2="101.6" y2="41.2" width="0.1524" layer="20"/>
-<wire x1="101.6" y1="0" x2="101.6" y2="41.2" width="0.1524" layer="20"/>
+<wire x1="0" y1="-0.0508" x2="30.734" y2="-0.0508" width="0" layer="20"/>
+<wire x1="63.627" y1="6.2992" x2="63.627" y2="-0.0508" width="0" layer="20"/>
+<wire x1="38.735" y1="7.0612" x2="38.735" y2="-0.0508" width="0" layer="20"/>
+<wire x1="38.735" y1="-0.0508" x2="63.627" y2="-0.0508" width="0" layer="20"/>
+<wire x1="70.866" y1="-0.0508" x2="101.6" y2="-0.0508" width="0" layer="20"/>
+<wire x1="101.6" y1="-0.0508" x2="101.6" y2="41.0972" width="0" layer="20"/>
+<wire x1="101.6" y1="41.0972" x2="0" y2="41.0972" width="0" layer="20"/>
+<wire x1="31.877" y1="34.4932" x2="36.576" y2="34.4932" width="0" layer="20"/>
+<wire x1="38.735" y1="32.3342" x2="38.735" y2="23.5712" width="0" layer="20"/>
+<wire x1="38.735" y1="23.5712" x2="39.37" y2="22.9362" width="0" layer="20" curve="90"/>
+<wire x1="39.37" y1="22.9362" x2="39.624" y2="22.9362" width="0" layer="20"/>
+<wire x1="41.148" y1="21.4122" x2="41.148" y2="8.9662" width="0" layer="20"/>
+<wire x1="39.878" y1="7.6962" x2="39.37" y2="7.6962" width="0" layer="20"/>
+<wire x1="39.37" y1="7.6962" x2="38.735" y2="7.0612" width="0" layer="20" curve="90"/>
+<wire x1="31.877" y1="34.4932" x2="30.734" y2="33.2232" width="0" layer="20" curve="90"/>
+<wire x1="30.734" y1="33.2232" x2="30.734" y2="-0.0508" width="0" layer="20"/>
+<wire x1="70.866" y1="-0.0508" x2="70.866" y2="33.2232" width="0" layer="20"/>
+<wire x1="70.866" y1="33.2232" x2="69.85" y2="34.2392" width="0" layer="20" curve="90"/>
+<wire x1="69.85" y1="34.2392" x2="64.516" y2="34.2392" width="0" layer="20"/>
+<wire x1="64.516" y1="34.2392" x2="62.865" y2="32.5882" width="0" layer="20" curve="90"/>
+<wire x1="62.865" y1="32.5882" x2="62.865" y2="25.7302" width="0" layer="20"/>
+<wire x1="61.849" y1="24.7142" x2="49.53" y2="24.7142" width="0" layer="20"/>
+<wire x1="49.53" y1="24.7142" x2="48.514" y2="23.6982" width="0" layer="20" curve="90"/>
+<wire x1="48.514" y1="23.6982" x2="48.514" y2="17.2212" width="0" layer="20"/>
+<wire x1="48.514" y1="17.2212" x2="49.911" y2="15.8242" width="0" layer="20" curve="90"/>
+<wire x1="49.911" y1="15.8242" x2="58.293" y2="15.8242" width="0" layer="20"/>
+<wire x1="60.325" y1="13.7922" x2="60.325" y2="8.9662" width="0" layer="20"/>
+<wire x1="60.325" y1="8.9662" x2="61.468" y2="7.8232" width="0" layer="20" curve="90"/>
+<wire x1="61.468" y1="7.8232" x2="62.103" y2="7.8232" width="0" layer="20"/>
+<wire x1="39.624" y1="22.9362" x2="41.148" y2="21.4122" width="0" layer="20" curve="-90"/>
+<wire x1="41.148" y1="8.9662" x2="39.878" y2="7.6962" width="0" layer="20" curve="-90"/>
+<wire x1="62.103" y1="7.8232" x2="63.627" y2="6.2992" width="0" layer="20" curve="-100.388858"/>
+<wire x1="58.293" y1="15.8242" x2="60.325" y2="13.7922" width="0" layer="20" curve="-90"/>
+<wire x1="62.865" y1="25.7302" x2="61.849" y2="24.7142" width="0" layer="20" curve="-90"/>
+<wire x1="36.576" y1="34.4932" x2="38.735" y2="32.3342" width="0" layer="20" curve="-90"/>
+<wire x1="0" y1="-0.0508" x2="0" y2="41.0972" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="X16-ESC-Adapter">
@@ -393,6 +432,102 @@
 </package3d>
 </packages3d>
 </library>
+<library name="SparkFun-Resistors" urn="urn:adsk.eagle:library:532">
+<description>&lt;h3&gt;SparkFun Resistors&lt;/h3&gt;
+This library contains resistors. Reference designator:R. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="0603" urn="urn:adsk.eagle:footprint:39615/1" library_version="2">
+<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="0603" urn="urn:adsk.eagle:package:41389018/1" type="box" library_version="2">
+<description>Generic 1608 (0603) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="SparkFun-LED" urn="urn:adsk.eagle:library:529">
+<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
+This library contains discrete LEDs for illumination or indication, but no displays.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="LED-0603" urn="urn:adsk.eagle:footprint:39307/2" library_version="2">
+<description>&lt;B&gt;LED 0603 SMT&lt;/B&gt;&lt;p&gt;
+0603, surface mount.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.075inch &lt;/li&gt;
+&lt;li&gt;Area: 0.06" x 0.03"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED - BLUE&lt;/li&gt;</description>
+<smd name="C" x="0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
+<smd name="A" x="-0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
+<text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="1.5875" y1="0.47625" x2="1.5875" y2="-0.47625" width="0.2032" layer="21"/>
+<wire x1="0.15875" y1="0.47625" x2="0.15875" y2="0" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="0.15875" y2="-0.47625" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="-0.15875" y2="0.3175" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="-0.15875" y2="-0.3175" width="0.127" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="LED-0603" urn="urn:adsk.eagle:package:39354/2" type="box" library_version="2">
+<description>&lt;B&gt;LED 0603 SMT&lt;/B&gt;&lt;p&gt;
+0603, surface mount.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.075inch &lt;/li&gt;
+&lt;li&gt;Area: 0.06" x 0.03"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED - BLUE&lt;/li&gt;</description>
+<packageinstances>
+<packageinstance name="LED-0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -586,23 +721,234 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="X16-ESC-Adapter" package="CONN3_1824750000_WED" value="CONN_1824750000" x="3.81" y="-3.81" smashed="yes">
-<attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." x="3.81" y="-3.81" size="1.778" layer="27" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER_1" value="281-2111-ND" x="3.81" y="-3.81" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="1824750000" x="3.81" y="-3.81" size="1.778" layer="27" display="off"/>
-<attribute name="MFR_NAME" value="Weidmuller" x="3.81" y="-3.81" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="5.5372" y="-7.9502" size="1.27" layer="27" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="7.0866" y="-7.9502" size="1.27" layer="27" ratio="6" rot="SR0"/>
+<element name="ESC1" library="X16-ESC-Adapter" package="CONN3_1824750000_WED" value="CONN_1824750000" x="15.24" y="30.48" smashed="yes" rot="R270">
+<attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." x="15.24" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER_1" value="281-2111-ND" x="15.24" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1824750000" x="15.24" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR_NAME" value="Weidmuller" x="15.24" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="4.7498" y="19.8628" size="1.27" layer="27" ratio="6" rot="SR90"/>
+<attribute name="VALUE" x="2.2098" y="18.3134" size="1.27" layer="27" ratio="6" rot="SR90"/>
 </element>
-<element name="U$1" library="X16-ESC-Adapter" package="CONN_BACKPLANE_ESC_ADAPTER" value="CONN_BACKPLANE_ESC_ADAPTER" x="0" y="0" smashed="yes"/>
-<element name="U$2" library="X16-ESC-Adapter" package="JST_8_PIN" value="CONN_JST_8_PIN" x="31.75" y="3.81" smashed="yes">
-<attribute name="NAME" x="33.02" y="5.08" size="1.27" layer="25"/>
+<element name="PWR" library="X16-ESC-Adapter" package="CONN_BACKPLANE_ESC_ADAPTER" value="CONN_BACKPLANE_ESC_ADAPTER" x="0" y="0" smashed="yes"/>
+<element name="LUMENIER_ESC_PORT" library="X16-ESC-Adapter" package="JST_8_PIN" value="CONN_JST_8_PIN" x="45.72" y="26.67" smashed="yes" rot="MR180">
+<attribute name="NAME" x="46.99" y="25.4" size="1.27" layer="26" rot="MR180"/>
 </element>
-<element name="U$3" library="X16-ESC-Adapter" package="LUMENIER" package3d_urn="urn:adsk.eagle:package:37886188/1" value="LUMENIER" x="49.53" y="1.27" smashed="yes">
-<attribute name="NAME" x="50.8" y="34.29" size="1.27" layer="21"/>
+<element name="LUMINIER_ESC" library="X16-ESC-Adapter" package="LUMENIER" package3d_urn="urn:adsk.eagle:package:37886188/1" value="LUMENIER" x="27.94" y="1.27" smashed="yes">
+<attribute name="NAME" x="44.45" y="11.43" size="1.27" layer="21"/>
+</element>
+<element name="ESC2" library="X16-ESC-Adapter" package="CONN3_1824750000_WED" value="CONN_1824750000" x="15.24" y="13.97" smashed="yes" rot="R270">
+<attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." x="15.24" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER_1" value="281-2111-ND" x="15.24" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1824750000" x="15.24" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR_NAME" value="Weidmuller" x="15.24" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="4.7498" y="3.3528" size="1.27" layer="27" ratio="6" rot="SR90"/>
+<attribute name="VALUE" x="2.2098" y="0.5334" size="1.27" layer="27" ratio="6" rot="SR90"/>
+</element>
+<element name="ESC3" library="X16-ESC-Adapter" package="CONN3_1824750000_WED" value="CONN_1824750000" x="86.36" y="3.81" smashed="yes" rot="R90">
+<attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." x="86.36" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER_1" value="281-2111-ND" x="86.36" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1824750000" x="86.36" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR_NAME" value="Weidmuller" x="86.36" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="96.8502" y="14.4272" size="1.27" layer="27" ratio="6" rot="SR270"/>
+<attribute name="VALUE" x="99.3902" y="15.9766" size="1.27" layer="27" ratio="6" rot="SR270"/>
+</element>
+<element name="ESC4" library="X16-ESC-Adapter" package="CONN3_1824750000_WED" value="CONN_1824750000" x="86.36" y="21.59" smashed="yes" rot="R90">
+<attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." x="86.36" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER_1" value="281-2111-ND" x="86.36" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1824750000" x="86.36" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR_NAME" value="Weidmuller" x="86.36" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="96.8502" y="32.2072" size="1.27" layer="27" ratio="6" rot="SR270"/>
+<attribute name="VALUE" x="99.3902" y="35.0266" size="1.27" layer="27" ratio="6" rot="SR270"/>
+</element>
+<element name="RIZZ" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:41389018/1" value="600" x="-7.366" y="-2.794" smashed="yes">
+<attribute name="NAME" x="-7.366" y="-2.032" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-15715" x="-7.366" y="-2.794" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-7.366" y="-3.556" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/2" value="GREEN" x="-7.366" y="-6.096" smashed="yes">
+<attribute name="NAME" x="-7.366" y="-5.461" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="-7.366" y="-6.731" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 </elements>
 <signals>
+<signal name="12V">
+<contactref element="LUMINIER_ESC" pad="VIN"/>
+<contactref element="PWR" pad="12V@3"/>
+<contactref element="PWR" pad="12V@6"/>
+<contactref element="PWR" pad="12V@9"/>
+<contactref element="PWR" pad="12V@12"/>
+<contactref element="PWR" pad="12V@7"/>
+<contactref element="PWR" pad="12V@5"/>
+<contactref element="PWR" pad="12V@8"/>
+<contactref element="PWR" pad="12V@4"/>
+<contactref element="PWR" pad="12V@10"/>
+<contactref element="PWR" pad="12V@11"/>
+<contactref element="RIZZ" pad="1"/>
+<wire x1="90.424" y1="36.322" x2="90.424" y2="38.862" width="0" layer="19" extent="1-1"/>
+<wire x1="87.884" y1="38.862" x2="90.424" y2="38.862" width="0" layer="19" extent="1-1"/>
+<wire x1="87.884" y1="36.322" x2="90.424" y2="36.322" width="0" layer="19" extent="1-1"/>
+<wire x1="85.344" y1="38.862" x2="87.884" y2="38.862" width="0" layer="19" extent="1-1"/>
+<wire x1="85.344" y1="36.322" x2="87.884" y2="36.322" width="0" layer="19" extent="1-1"/>
+<wire x1="82.804" y1="38.862" x2="85.344" y2="38.862" width="0" layer="19" extent="1-1"/>
+<wire x1="82.804" y1="36.322" x2="85.344" y2="36.322" width="0" layer="19" extent="1-1"/>
+<wire x1="80.264" y1="38.862" x2="82.804" y2="38.862" width="0" layer="19" extent="1-1"/>
+<wire x1="80.264" y1="36.322" x2="82.804" y2="36.322" width="0" layer="19" extent="1-1"/>
+<wire x1="55.43" y1="31.64" x2="80.264" y2="36.322" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.216" y1="-2.794" x2="55.43" y2="31.64" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GND">
+<contactref element="LUMINIER_ESC" pad="GND"/>
+<contactref element="PWR" pad="GND@3"/>
+<contactref element="PWR" pad="GND@6"/>
+<contactref element="PWR" pad="GND@4"/>
+<contactref element="PWR" pad="GND@10"/>
+<contactref element="PWR" pad="GND@2"/>
+<contactref element="PWR" pad="GND@7"/>
+<contactref element="PWR" pad="GND@5"/>
+<contactref element="PWR" pad="GND@9"/>
+<contactref element="PWR" pad="GND@8"/>
+<contactref element="PWR" pad="GND@1"/>
+<contactref element="LUMENIER_ESC_PORT" pad="MECH2"/>
+<contactref element="LUMENIER_ESC_PORT" pad="2"/>
+<contactref element="LUMENIER_ESC_PORT" pad="MECH1"/>
+<contactref element="D1" pad="C"/>
+<wire x1="53.594" y1="38.862" x2="56.134" y2="38.862" width="0" layer="19" extent="1-1"/>
+<wire x1="56.134" y1="36.322" x2="56.134" y2="38.862" width="0" layer="19" extent="1-1"/>
+<wire x1="53.594" y1="36.322" x2="53.594" y2="38.862" width="0" layer="19" extent="1-1"/>
+<wire x1="51.054" y1="38.862" x2="53.594" y2="38.862" width="0" layer="19" extent="1-1"/>
+<wire x1="51.054" y1="36.322" x2="53.594" y2="36.322" width="0" layer="19" extent="1-1"/>
+<wire x1="48.514" y1="38.862" x2="51.054" y2="38.862" width="0" layer="19" extent="1-1"/>
+<wire x1="45.974" y1="38.862" x2="48.514" y2="38.862" width="0" layer="19" extent="1-1"/>
+<wire x1="48.514" y1="36.322" x2="51.054" y2="36.322" width="0" layer="19" extent="1-1"/>
+<wire x1="45.974" y1="36.322" x2="45.974" y2="38.862" width="0" layer="19" extent="1-1"/>
+<wire x1="46.45" y1="31.64" x2="45.974" y2="36.322" width="0" layer="19" extent="1-1"/>
+<wire x1="48.22" y1="27.42" x2="46.45" y2="31.64" width="0" layer="19" extent="1-16"/>
+<wire x1="45.92" y1="22.86" x2="48.22" y2="27.42" width="0" layer="19" extent="16-16"/>
+<wire x1="55.52" y1="22.86" x2="48.22" y2="27.42" width="0" layer="19" extent="16-16"/>
+<wire x1="-6.489" y1="-6.096" x2="45.92" y2="22.86" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="ESC3A">
+<contactref element="ESC3" pad="6"/>
+<contactref element="ESC3" pad="5"/>
+<contactref element="LUMINIER_ESC" pad="9"/>
+<wire x1="86.36" y1="13.8176" x2="93.3704" y2="13.8176" width="0" layer="19" extent="1-1"/>
+<wire x1="73.94" y1="15.19" x2="86.36" y2="13.8176" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ESC3B">
+<contactref element="ESC3" pad="4"/>
+<contactref element="ESC3" pad="3"/>
+<contactref element="LUMINIER_ESC" pad="8"/>
+<wire x1="86.36" y1="8.8138" x2="93.3704" y2="8.8138" width="0" layer="19" extent="1-1"/>
+<wire x1="73.94" y1="9.62" x2="86.36" y2="8.8138" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ESC3C">
+<contactref element="ESC3" pad="2"/>
+<contactref element="ESC3" pad="1"/>
+<contactref element="LUMINIER_ESC" pad="7"/>
+<wire x1="86.36" y1="3.81" x2="93.3704" y2="3.81" width="0" layer="19" extent="1-1"/>
+<wire x1="73.94" y1="4.05" x2="86.36" y2="3.81" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ESC1A">
+<contactref element="ESC1" pad="1"/>
+<contactref element="ESC1" pad="2"/>
+<contactref element="LUMINIER_ESC" pad="1"/>
+<wire x1="15.24" y1="30.48" x2="27.94" y2="31.89" width="0" layer="19" extent="1-1"/>
+<wire x1="8.2296" y1="30.48" x2="15.24" y2="30.48" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ESC1B">
+<contactref element="ESC1" pad="3"/>
+<contactref element="ESC1" pad="4"/>
+<contactref element="LUMINIER_ESC" pad="2"/>
+<wire x1="15.24" y1="25.4762" x2="27.94" y2="26.32" width="0" layer="19" extent="1-1"/>
+<wire x1="8.2296" y1="25.4762" x2="15.24" y2="25.4762" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ESC1C">
+<contactref element="ESC1" pad="5"/>
+<contactref element="ESC1" pad="6"/>
+<contactref element="LUMINIER_ESC" pad="3"/>
+<wire x1="15.24" y1="20.4724" x2="27.94" y2="20.75" width="0" layer="19" extent="1-1"/>
+<wire x1="8.2296" y1="20.4724" x2="15.24" y2="20.4724" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ESC2A">
+<contactref element="ESC2" pad="1"/>
+<contactref element="ESC2" pad="2"/>
+<contactref element="LUMINIER_ESC" pad="4"/>
+<wire x1="15.24" y1="13.97" x2="27.94" y2="15.19" width="0" layer="19" extent="1-1"/>
+<wire x1="8.2296" y1="13.97" x2="15.24" y2="13.97" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ESC2B">
+<contactref element="ESC2" pad="3"/>
+<contactref element="ESC2" pad="4"/>
+<contactref element="LUMINIER_ESC" pad="5"/>
+<wire x1="15.24" y1="8.9662" x2="27.94" y2="9.62" width="0" layer="19" extent="1-1"/>
+<wire x1="8.2296" y1="8.9662" x2="15.24" y2="8.9662" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ESC2C">
+<contactref element="ESC2" pad="5"/>
+<contactref element="ESC2" pad="6"/>
+<contactref element="LUMINIER_ESC" pad="6"/>
+<wire x1="15.24" y1="3.9624" x2="27.94" y2="4.05" width="0" layer="19" extent="1-1"/>
+<wire x1="8.2296" y1="3.9624" x2="15.24" y2="3.9624" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ESC4A">
+<contactref element="ESC4" pad="6"/>
+<contactref element="ESC4" pad="5"/>
+<contactref element="LUMINIER_ESC" pad="12"/>
+<wire x1="86.36" y1="31.5976" x2="93.3704" y2="31.5976" width="0" layer="19" extent="1-1"/>
+<wire x1="73.94" y1="31.89" x2="86.36" y2="31.5976" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ESC4B">
+<contactref element="ESC4" pad="4"/>
+<contactref element="ESC4" pad="3"/>
+<contactref element="LUMINIER_ESC" pad="11"/>
+<wire x1="86.36" y1="26.5938" x2="93.3704" y2="26.5938" width="0" layer="19" extent="1-1"/>
+<wire x1="73.94" y1="26.32" x2="86.36" y2="26.5938" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ESC4C">
+<contactref element="ESC4" pad="2"/>
+<contactref element="ESC4" pad="1"/>
+<contactref element="LUMINIER_ESC" pad="10"/>
+<wire x1="86.36" y1="21.59" x2="93.3704" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="73.94" y1="20.75" x2="86.36" y2="21.59" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="MTR_1">
+<contactref element="PWR" pad="PWM0"/>
+<contactref element="LUMENIER_ESC_PORT" pad="5"/>
+<wire x1="19.304" y1="36.322" x2="51.22" y2="27.42" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="MTR_2">
+<contactref element="PWR" pad="PWM1"/>
+<contactref element="LUMENIER_ESC_PORT" pad="6"/>
+<wire x1="16.764" y1="36.322" x2="52.22" y2="27.42" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="MTR_3">
+<contactref element="PWR" pad="PWM2"/>
+<contactref element="LUMENIER_ESC_PORT" pad="7"/>
+<wire x1="14.224" y1="36.322" x2="53.22" y2="27.42" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="MTR_4">
+<contactref element="PWR" pad="PWM3"/>
+<contactref element="LUMENIER_ESC_PORT" pad="8"/>
+<wire x1="11.684" y1="36.322" x2="54.22" y2="27.42" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$7">
+<contactref element="PWR" pad="NC@5"/>
+<contactref element="PWR" pad="NC@1"/>
+<contactref element="PWR" pad="NC@2"/>
+<contactref element="PWR" pad="NC@3"/>
+<contactref element="PWR" pad="NC@6"/>
+<contactref element="PWR" pad="NC@4"/>
+<wire x1="16.764" y1="38.862" x2="19.304" y2="38.862" width="0" layer="19" extent="1-1"/>
+<wire x1="14.224" y1="38.862" x2="16.764" y2="38.862" width="0" layer="19" extent="1-1"/>
+<wire x1="11.684" y1="38.862" x2="14.224" y2="38.862" width="0" layer="19" extent="1-1"/>
+<wire x1="9.144" y1="38.862" x2="11.684" y2="38.862" width="0" layer="19" extent="1-1"/>
+<wire x1="9.144" y1="36.322" x2="9.144" y2="38.862" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="RIZZ" pad="2"/>
+<contactref element="D1" pad="A"/>
+<wire x1="-6.516" y1="-2.794" x2="-8.243" y2="-6.096" width="0" layer="19" extent="1-1"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -614,6 +960,11 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
