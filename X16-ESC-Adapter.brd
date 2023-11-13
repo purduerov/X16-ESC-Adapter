@@ -870,6 +870,22 @@ maxErrors = 50
 <vertex x="59.182" y="41.402"/>
 <vertex x="59.182" y="35.052"/>
 </polygon>
+<via x="53.086" y="27.432" extent="1-16" drill="0.35"/>
+<via x="56.642" y="27.432" extent="1-16" drill="0.35"/>
+<via x="59.69" y="27.432" extent="1-16" drill="0.35"/>
+<via x="62.738" y="27.432" extent="1-16" drill="0.35"/>
+<via x="62.738" y="31.75" extent="1-16" drill="0.35"/>
+<via x="62.738" y="35.56" extent="1-16" drill="0.35"/>
+<via x="59.69" y="35.56" extent="1-16" drill="0.35"/>
+<via x="59.69" y="31.75" extent="1-16" drill="0.35"/>
+<via x="71.882" y="35.306" extent="1-16" drill="0.35"/>
+<via x="71.882" y="39.37" extent="1-16" drill="0.35"/>
+<via x="75.946" y="39.37" extent="1-16" drill="0.35"/>
+<via x="75.946" y="35.306" extent="1-16" drill="0.35"/>
+<via x="95.758" y="39.37" extent="1-16" drill="0.35"/>
+<via x="99.822" y="39.37" extent="1-16" drill="0.35"/>
+<via x="95.758" y="35.306" extent="1-16" drill="0.35"/>
+<via x="99.822" y="35.306" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="GND">
 <contactref element="LUMINIER_ESC" pad="GND"/>
@@ -917,6 +933,23 @@ maxErrors = 50
 <vertex x="0.762" y="42.164"/>
 </polygon>
 <wire x1="56.134" y1="38.862" x2="61.688" y2="38.862" width="0.762" layer="1"/>
+<via x="1.524" y="39.37" extent="1-16" drill="0.35"/>
+<via x="5.588" y="39.37" extent="1-16" drill="0.35"/>
+<via x="1.524" y="35.306" extent="1-16" drill="0.35"/>
+<via x="5.588" y="35.306" extent="1-16" drill="0.35"/>
+<via x="35.814" y="39.624" extent="1-16" drill="0.35"/>
+<via x="39.37" y="39.624" extent="1-16" drill="0.35"/>
+<via x="42.672" y="39.624" extent="1-16" drill="0.35"/>
+<via x="35.814" y="35.56" extent="1-16" drill="0.35"/>
+<via x="39.37" y="35.56" extent="1-16" drill="0.35"/>
+<via x="42.672" y="35.56" extent="1-16" drill="0.35"/>
+<via x="39.37" y="31.496" extent="1-16" drill="0.35"/>
+<via x="42.672" y="31.496" extent="1-16" drill="0.35"/>
+<via x="39.37" y="27.432" extent="1-16" drill="0.35"/>
+<via x="42.672" y="27.432" extent="1-16" drill="0.35"/>
+<via x="46.228" y="27.432" extent="1-16" drill="0.35"/>
+<via x="49.784" y="27.432" extent="1-16" drill="0.35"/>
+<via x="49.784" y="31.496" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="ESC3A">
 <contactref element="ESC3" pad="6"/>
@@ -1243,105 +1276,6 @@ maxErrors = 50
 <contactref element="RIZZ" pad="2"/>
 <contactref element="HOPE" pad="A"/>
 <wire x1="63.788" y1="38.862" x2="67.222" y2="38.862" width="0.762" layer="1"/>
-</signal>
-<signal name="N$2">
-<via x="39.37" y="27.432" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$6">
-<via x="42.672" y="27.432" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$10">
-<via x="46.228" y="27.432" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$24">
-<via x="39.37" y="35.56" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$44">
-<via x="35.814" y="39.624" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$45">
-<via x="39.37" y="31.496" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$49">
-<via x="42.672" y="31.496" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$55">
-<via x="39.37" y="39.624" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$65">
-<via x="42.672" y="39.624" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$67">
-<via x="42.672" y="35.56" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$3">
-<via x="59.69" y="35.56" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$4">
-<via x="62.738" y="35.56" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$7">
-<via x="95.758" y="35.306" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$9">
-<via x="35.814" y="35.56" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$12">
-<via x="95.758" y="39.37" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$13">
-<via x="99.822" y="39.37" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$14">
-<via x="99.822" y="35.306" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$15">
-<via x="71.882" y="35.306" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$16">
-<via x="75.946" y="35.306" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$17">
-<via x="71.882" y="39.37" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$18">
-<via x="75.946" y="39.37" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$19">
-<via x="59.69" y="27.432" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$20">
-<via x="62.738" y="27.432" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$21">
-<via x="59.69" y="31.75" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$22">
-<via x="62.738" y="31.75" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$26">
-<via x="49.784" y="27.432" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$27">
-<via x="49.784" y="31.496" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$25">
-<via x="56.642" y="27.432" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$29">
-<via x="53.086" y="27.432" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$5">
-<via x="1.524" y="35.306" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$8">
-<via x="1.524" y="39.37" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$11">
-<via x="5.588" y="39.37" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$23">
-<via x="5.588" y="35.306" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
