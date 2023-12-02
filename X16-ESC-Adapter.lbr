@@ -256,16 +256,16 @@
 <pad name="12" x="46" y="30.62" drill="3.5" diameter="4.8" shape="octagon"/>
 </package>
 <package name="CONN_BACKPLANE_ESC_ADAPTER">
-<pad name="GND@1" x="56.134" y="38.862" drill="1.016" diameter="1.8796"/>
-<pad name="GND@2" x="56.134" y="36.322" drill="1.016" diameter="1.8796"/>
-<pad name="GND@3" x="53.594" y="38.862" drill="1.016" diameter="1.8796"/>
-<pad name="GND@4" x="53.594" y="36.322" drill="1.016" diameter="1.8796"/>
-<pad name="GND@5" x="51.054" y="38.862" drill="1.016" diameter="1.8796"/>
-<pad name="GND@6" x="51.054" y="36.322" drill="1.016" diameter="1.8796"/>
-<pad name="GND@7" x="48.514" y="38.862" drill="1.016" diameter="1.8796"/>
-<pad name="GND@8" x="48.514" y="36.322" drill="1.016" diameter="1.8796"/>
-<pad name="GND@9" x="45.974" y="38.862" drill="1.016" diameter="1.8796"/>
-<pad name="GND@10" x="45.974" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@1" x="51.054" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@2" x="51.054" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@3" x="48.514" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@4" x="48.514" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@5" x="45.974" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@6" x="45.974" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@7" x="43.434" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@8" x="43.434" y="36.322" drill="1.016" diameter="1.8796"/>
+<pad name="GND@9" x="40.894" y="38.862" drill="1.016" diameter="1.8796"/>
+<pad name="GND@10" x="40.894" y="36.322" drill="1.016" diameter="1.8796"/>
 <pad name="12V@3" x="90.424" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="12V@4" x="90.424" y="38.862" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="12V@5" x="87.884" y="36.322" drill="1.016" diameter="1.8796" rot="R180"/>
@@ -280,18 +280,18 @@
 <wire x1="101.6" y1="0" x2="101.6" y2="41.148" width="0" layer="51"/>
 <wire x1="101.6" y1="41.148" x2="0" y2="41.148" width="0" layer="51"/>
 <wire x1="0" y1="41.148" x2="0" y2="0" width="0" layer="51"/>
-<wire x1="44.514" y1="35.117" x2="44.514" y2="40.067" width="0.1" layer="51"/>
-<wire x1="44.514" y1="40.067" x2="57.594" y2="40.067" width="0.1" layer="51"/>
-<wire x1="57.594" y1="40.067" x2="57.594" y2="35.117" width="0.1" layer="51"/>
-<wire x1="57.594" y1="35.117" x2="44.514" y2="35.117" width="0.1" layer="51"/>
-<wire x1="44.514" y1="35.117" x2="44.514" y2="40.067" width="0.2" layer="21"/>
-<wire x1="57.594" y1="40.067" x2="57.594" y2="35.117" width="0.2" layer="21"/>
-<wire x1="57.594" y1="40.067" x2="44.514" y2="40.067" width="0.2" layer="21"/>
-<wire x1="57.594" y1="35.117" x2="44.514" y2="35.117" width="0.2" layer="21"/>
-<wire x1="44.264" y1="34.867" x2="44.264" y2="40.317" width="0.05" layer="39"/>
-<wire x1="44.264" y1="40.317" x2="57.844" y2="40.317" width="0.05" layer="39"/>
-<wire x1="57.844" y1="40.317" x2="57.844" y2="34.867" width="0.05" layer="39"/>
-<wire x1="57.844" y1="34.867" x2="44.264" y2="34.867" width="0.05" layer="39"/>
+<wire x1="39.434" y1="35.117" x2="39.434" y2="40.067" width="0.1" layer="51"/>
+<wire x1="39.434" y1="40.067" x2="52.514" y2="40.067" width="0.1" layer="51"/>
+<wire x1="52.514" y1="40.067" x2="52.514" y2="35.117" width="0.1" layer="51"/>
+<wire x1="52.514" y1="35.117" x2="39.434" y2="35.117" width="0.1" layer="51"/>
+<wire x1="39.434" y1="35.117" x2="39.434" y2="40.067" width="0.2" layer="21"/>
+<wire x1="52.514" y1="40.067" x2="52.514" y2="35.117" width="0.2" layer="21"/>
+<wire x1="52.514" y1="40.067" x2="39.434" y2="40.067" width="0.2" layer="21"/>
+<wire x1="52.514" y1="35.117" x2="39.434" y2="35.117" width="0.2" layer="21"/>
+<wire x1="39.184" y1="34.867" x2="39.184" y2="40.317" width="0.05" layer="39"/>
+<wire x1="39.184" y1="40.317" x2="52.764" y2="40.317" width="0.05" layer="39"/>
+<wire x1="52.764" y1="40.317" x2="52.764" y2="34.867" width="0.05" layer="39"/>
+<wire x1="52.764" y1="34.867" x2="39.184" y2="34.867" width="0.05" layer="39"/>
 <pad name="NC@1" x="19.304" y="38.862" drill="1.016" diameter="1.8796"/>
 <pad name="PWM0" x="19.304" y="36.322" drill="1.016" diameter="1.8796"/>
 <pad name="NC@2" x="16.764" y="38.862" drill="1.016" diameter="1.8796"/>
@@ -679,6 +679,28 @@
 </gates>
 <devices>
 <device name="" package="6-32-HOLE">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CONN_BACKPLANE_ESC_ADAPTER_NEW">
+<description>ESC Adapter to Backplane</description>
+<gates>
+<gate name="G$1" symbol="PWR_RETURN" x="-17.78" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONN_BACKPLANE_ESC_ADAPTER">
+<connects>
+<connect gate="G$1" pin="12V" pad="12V@3 12V@4 12V@5 12V@6 12V@7 12V@8 12V@9 12V@10 12V@11 12V@12"/>
+<connect gate="G$1" pin="GND" pad="GND@1 GND@2 GND@3 GND@4 GND@5 GND@6 GND@7 GND@8 GND@9 GND@10"/>
+<connect gate="G$1" pin="NC" pad="NC@1 NC@2 NC@3 NC@4 NC@5 NC@6"/>
+<connect gate="G$1" pin="PWM0" pad="PWM0"/>
+<connect gate="G$1" pin="PWM1" pad="PWM1"/>
+<connect gate="G$1" pin="PWM2" pad="PWM2"/>
+<connect gate="G$1" pin="PWM3" pad="PWM3"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
