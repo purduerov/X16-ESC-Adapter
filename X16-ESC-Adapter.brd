@@ -8174,8 +8174,14 @@ maxErrors = 50
 <via x="71.882" y="39.4208" extent="1-16" drill="0.35"/>
 <via x="75.946" y="39.4208" extent="1-16" drill="0.35"/>
 <via x="75.946" y="35.3568" extent="1-16" drill="0.35"/>
-<via x="94.742" y="39.6748" extent="1-16" drill="0.35"/>
-<via x="93.4466" y="35.2552" extent="1-16" drill="0.35"/>
+<via x="93.4466" y="39.6494" extent="1-16" drill="0.35"/>
+<via x="93.472" y="35.3568" extent="1-16" drill="0.35"/>
+<polygon width="0.1524" layer="1" pour="cutout">
+<vertex x="97.79" y="34.0106"/>
+<vertex x="101.5746" y="34.0106"/>
+<vertex x="101.5746" y="-0.0254"/>
+<vertex x="97.79" y="-0.0254"/>
+</polygon>
 </signal>
 <signal name="GND">
 <contactref element="LUMINIER_ESC" pad="GND"/>
@@ -8220,8 +8226,8 @@ maxErrors = 50
 </polygon>
 <wire x1="61.6372" y1="38.862" x2="61.688" y2="38.9128" width="0.762" layer="1"/>
 <wire x1="61.6372" y1="38.862" x2="51.054" y2="38.862" width="0.762" layer="1"/>
-<via x="6.7564" y="39.5732" extent="1-16" drill="0.35"/>
-<via x="6.731" y="34.6202" extent="1-16" drill="0.35"/>
+<via x="7.1882" y="39.5986" extent="1-16" drill="0.35"/>
+<via x="7.2136" y="34.9504" extent="1-16" drill="0.35"/>
 <via x="36.7538" y="39.5986" extent="1-16" drill="0.35"/>
 <via x="36.7284" y="35.8394" extent="1-16" drill="0.35"/>
 <via x="39.37" y="31.5468" extent="1-16" drill="0.35"/>
@@ -8238,42 +8244,65 @@ maxErrors = 50
 <contactref element="PWR" pad="NC@4"/>
 <contactref element="PWR" pad="NC@6"/>
 <contactref element="J1" pad="2"/>
-<wire x1="26.456" y1="36.6418" x2="26.456" y2="37.973" width="0.2032" layer="1"/>
-<wire x1="26.456" y1="37.973" x2="26.456" y2="39.4862" width="0.2032" layer="1"/>
+<wire x1="26.456" y1="36.6418" x2="26.456" y2="39.4862" width="0.2032" layer="1"/>
 <wire x1="26.456" y1="39.4862" x2="26.4668" y2="39.497" width="0.2032" layer="1"/>
 <via x="26.4668" y="39.497" extent="1-16" drill="0.35"/>
 <wire x1="19.304" y1="38.862" x2="20.5949875" y2="38.862" width="0.2032" layer="1"/>
-<wire x1="20.5949875" y1="38.862" x2="21.4441875" y2="38.0128" width="0.2032" layer="1"/>
-<wire x1="26.4162" y1="38.0128" x2="26.456" y2="37.973" width="0.2032" layer="1"/>
-<wire x1="21.4441875" y1="38.0128" x2="26.4162" y2="38.0128" width="0.2032" layer="1"/>
+<wire x1="20.5949875" y1="38.862" x2="22.9427875" y2="36.5142" width="0.2032" layer="1"/>
+<wire x1="26.456" y1="36.6418" x2="26.3284" y2="36.5142" width="0.2032" layer="1"/>
+<wire x1="26.3284" y1="36.5142" x2="22.9427875" y2="36.5142" width="0.2032" layer="1"/>
 <wire x1="26.4668" y1="39.497" x2="36.6522" y2="39.497" width="0.2032" layer="16"/>
 <wire x1="36.6522" y1="39.497" x2="36.7538" y2="39.5986" width="0.2032" layer="16"/>
-<wire x1="48.514" y1="38.862" x2="51.054" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="51.054" y1="36.322" x2="51.054" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="48.514" y1="36.322" x2="48.514" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="45.974" y1="38.862" x2="48.514" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="45.974" y1="36.322" x2="48.514" y2="36.322" width="0" layer="19" extent="1-1"/>
-<wire x1="43.434" y1="38.862" x2="45.974" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="40.894" y1="38.862" x2="43.434" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="43.434" y1="36.322" x2="45.974" y2="36.322" width="0" layer="19" extent="1-1"/>
-<wire x1="40.894" y1="36.322" x2="40.894" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="36.7284" y1="35.8394" x2="40.894" y2="36.322" width="0" layer="19" extent="1-1"/>
-<wire x1="39.37" y1="31.5468" x2="36.7284" y2="35.8394" width="0" layer="19" extent="1-1"/>
-<wire x1="42.672" y1="31.5468" x2="39.37" y2="31.5468" width="0" layer="19" extent="1-1"/>
-<wire x1="46.45" y1="31.4114" x2="42.672" y2="31.5468" width="0" layer="19" extent="1-1"/>
-<wire x1="49.784" y1="31.5468" x2="46.45" y2="31.4114" width="0" layer="19" extent="1-1"/>
-<wire x1="46.228" y1="27.4828" x2="46.45" y2="31.4114" width="0" layer="19" extent="1-1"/>
-<wire x1="49.784" y1="27.4828" x2="46.228" y2="27.4828" width="0" layer="19" extent="1-1"/>
-<wire x1="42.672" y1="27.4828" x2="46.228" y2="27.4828" width="0" layer="19" extent="1-1"/>
-<wire x1="39.37" y1="27.4828" x2="42.672" y2="27.4828" width="0" layer="19" extent="1-1"/>
-<wire x1="36.7538" y1="39.5986" x2="36.7284" y2="35.8394" width="0" layer="19" extent="1-1"/>
-<wire x1="16.764" y1="38.862" x2="19.304" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="14.224" y1="38.862" x2="16.764" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="11.684" y1="38.862" x2="14.224" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="9.144" y1="38.862" x2="11.684" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="6.7564" y1="39.5732" x2="9.144" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="9.144" y1="36.322" x2="9.144" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="6.731" y1="34.6202" x2="9.144" y2="36.322" width="0" layer="19" extent="1-1"/>
+<polygon width="0.1524" layer="16" pour="cutout">
+<vertex x="0.254" y="33.6296"/>
+<vertex x="3.7846" y="33.6296"/>
+<vertex x="3.8608" y="33.5534"/>
+<vertex x="3.8608" y="0.0508"/>
+<vertex x="0.0762" y="0.0508"/>
+<vertex x="0.0762" y="33.4772"/>
+<vertex x="0.1524" y="33.5534"/>
+</polygon>
+<polygon width="0.1524" layer="1" pour="cutout">
+<vertex x="0.1778" y="33.6804"/>
+<vertex x="3.9624" y="33.6804"/>
+<vertex x="3.9624" y="0.0508"/>
+<vertex x="0.1778" y="0.0508"/>
+</polygon>
+<polygon width="0.1524" layer="16" pour="cutout">
+<vertex x="6.5532" y="40.6908"/>
+<vertex x="5.7658" y="40.6908"/>
+<vertex x="5.7658" y="34.2138"/>
+<vertex x="5.6134" y="34.0614"/>
+<vertex x="6.604" y="34.0614"/>
+<vertex x="6.604" y="40.64"/>
+</polygon>
+<polygon width="0.1524" layer="1" pour="cutout">
+<vertex x="5.7658" y="40.6654"/>
+<vertex x="6.5532" y="40.6654"/>
+<vertex x="6.5532" y="34.036"/>
+<vertex x="5.6642" y="34.036"/>
+<vertex x="5.6388" y="34.0614"/>
+<vertex x="5.7658" y="34.1884"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="96.0374" y="40.1828"/>
+<vertex x="94.488" y="40.1828"/>
+<vertex x="94.4626" y="40.1574"/>
+<vertex x="94.4626" y="34.6456"/>
+<vertex x="94.5388" y="34.5694"/>
+<vertex x="95.6818" y="34.5694"/>
+<vertex x="95.7326" y="34.6202"/>
+<vertex x="95.7326" y="39.878"/>
+</polygon>
+<polygon width="0.1524" layer="16" pour="cutout">
+<vertex x="94.3991" y="40.1828"/>
+<vertex x="96.012" y="40.1828"/>
+<vertex x="96.0374" y="40.1574"/>
+<vertex x="95.7072" y="39.8272"/>
+<vertex x="95.7072" y="34.5948"/>
+<vertex x="94.4626" y="34.5948"/>
+<vertex x="94.4626" y="40.1193"/>
+</polygon>
 </signal>
 <signal name="ESC3A">
 <contactref element="ESC3" pad="6"/>
@@ -8586,6 +8615,14 @@ maxErrors = 50
 <contactref element="600" pad="2"/>
 <contactref element="HOPE" pad="A"/>
 <wire x1="63.788" y1="38.9128" x2="67.222" y2="38.9128" width="0.762" layer="1"/>
+</signal>
+<signal name="GND1">
+<polygon width="0.1524" layer="16" pour="cutout">
+<vertex x="97.79" y="33.9852"/>
+<vertex x="101.5746" y="33.9852"/>
+<vertex x="101.5746" y="-0.0254"/>
+<vertex x="97.79" y="-0.0254"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>
