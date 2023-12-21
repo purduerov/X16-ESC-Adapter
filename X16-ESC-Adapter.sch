@@ -2925,6 +2925,7 @@ Source: www.kingbright.com</description>
 <wire x1="-35.56" y1="15.24" x2="-33.02" y2="15.24" width="0.1524" layer="91"/>
 <junction x="-35.56" y="17.78"/>
 <label x="-33.02" y="15.24" size="1.778" layer="95" xref="yes"/>
+<junction x="-35.56" y="15.24"/>
 </segment>
 <segment>
 <pinref part="LUMINIER_ESC" gate="G$1" pin="M4P3"/>
@@ -3060,6 +3061,7 @@ Source: www.kingbright.com</description>
 <wire x1="-35.56" y1="-10.16" x2="-33.02" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="-35.56" y="-7.62"/>
 <label x="-33.02" y="-10.16" size="1.778" layer="95" xref="yes"/>
+<junction x="-35.56" y="-10.16"/>
 </segment>
 <segment>
 <pinref part="LUMINIER_ESC" gate="G$1" pin="M3P3"/>
