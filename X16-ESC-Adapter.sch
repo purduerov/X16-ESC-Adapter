@@ -3125,6 +3125,9 @@ Source: www.kingbright.com</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,-44.45,53.6617,HOPE,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
