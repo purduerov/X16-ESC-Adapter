@@ -9,6 +9,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -198,7 +212,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packages>
 </packages>
 <symbols>
-<symbol name="FR-A4L" urn="urn:adsk.eagle:symbol:41384377/3" library_version="4">
+<symbol name="FR-A4L" urn="urn:adsk.eagle:symbol:37073/1" library_version="1">
 <description>&lt;h3&gt;Schematic Frame - A4L - European Format&lt;/h3&gt;
 &lt;p&gt;Standard A4 size frame in Landscape&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -226,7 +240,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FRAME-A4L" urn="urn:adsk.eagle:component:41384676/3" prefix="FRAME" library_version="4">
+<deviceset name="FRAME-A4L" urn="urn:adsk.eagle:component:37152/1" prefix="FRAME" library_version="1">
 <description>&lt;h3&gt;Schematic Frame - A4L - European Format&lt;/h3&gt;
 &lt;p&gt;Standard A4 size frame in Landscape&lt;/p&gt;</description>
 <gates>
@@ -235,10 +249,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <devices>
 <device name="">
 <technologies>
-<technology name="">
-<attribute name="DESIGNER" value="" constant="no"/>
-<attribute name="REV" value="" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -565,22 +576,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="1210" urn="urn:adsk.eagle:footprint:39626/2" library_version="2">
-<description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.5365" y1="1.1865" x2="1.5365" y2="1.1865" width="0.127" layer="51"/>
-<wire x1="1.5365" y1="1.1865" x2="1.5365" y2="-1.1865" width="0.127" layer="51"/>
-<wire x1="1.5365" y1="-1.1865" x2="-1.5365" y2="-1.1865" width="0.127" layer="51"/>
-<wire x1="-1.5365" y1="-1.1865" x2="-1.5365" y2="1.1865" width="0.127" layer="51"/>
-<wire x1="-2.59" y1="1.45" x2="2.59" y2="1.45" width="0.0508" layer="39"/>
-<wire x1="2.59" y1="1.45" x2="2.59" y2="-1.45" width="0.0508" layer="39"/>
-<wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
-<wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
-<smd name="1" x="-1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
-<smd name="2" x="1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
-<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
 <package name="0603" urn="urn:adsk.eagle:footprint:39615/1" library_version="2">
 <description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
@@ -598,20 +593,36 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-</packages>
-<packages3d>
-<package3d name="1210" urn="urn:adsk.eagle:package:39664/2" type="box" library_version="2">
+<package name="1210" urn="urn:adsk.eagle:footprint:39626/2" library_version="2">
 <description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="1210"/>
-</packageinstances>
-</package3d>
+<wire x1="-1.5365" y1="1.1865" x2="1.5365" y2="1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="1.1865" x2="1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="-1.1865" x2="-1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="-1.5365" y1="-1.1865" x2="-1.5365" y2="1.1865" width="0.127" layer="51"/>
+<wire x1="-2.59" y1="1.45" x2="2.59" y2="1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="1.45" x2="2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
+<smd name="1" x="-1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<smd name="2" x="1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
 <package3d name="0603" urn="urn:adsk.eagle:package:41389018/1" type="box" library_version="2">
 <description>Generic 1608 (0603) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
 <packageinstances>
 <packageinstance name="0603"/>
+</packageinstances>
+</package3d>
+<package3d name="1210" urn="urn:adsk.eagle:package:39664/2" type="box" library_version="2">
+<description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="1210"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2789,8 +2800,8 @@ Source: www.kingbright.com</description>
 <part name="ESC2" library="X16-ESC-Adapter" deviceset="CONN_1824750000" device=""/>
 <part name="ESC3" library="X16-ESC-Adapter" deviceset="CONN_1824750000" device=""/>
 <part name="ESC4" library="X16-ESC-Adapter" deviceset="CONN_1824750000" device=""/>
-<part name="600" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="600"/>
-<part name="HOPE" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
+<part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="600"/>
+<part name="12V_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="J1" library="X16-ESC-Adapter" deviceset="BM08B-SRSS-TB(LF)(SN)" device=""/>
 </parts>
 <sheets>
@@ -2807,7 +2818,6 @@ Source: www.kingbright.com</description>
 <attribute name="DRAWING_NAME" x="44.45" y="-77.47" size="2.54" layer="94" font="vector"/>
 <attribute name="LAST_DATE_TIME" x="44.45" y="-82.55" size="2.286" layer="94" font="vector"/>
 <attribute name="SHEET" x="58.42" y="-87.63" size="2.54" layer="94" font="vector"/>
-<attribute name="DESIGNER" x="89.1" y="-82.55" size="2.54" layer="94" font="vector"/>
 </instance>
 <instance part="ESC1" gate="A" x="-66.04" y="27.94" smashed="yes">
 <attribute name="NAME" x="-61.8744" y="33.2486" size="2.0828" layer="95" ratio="6" rot="SR0"/>
@@ -2827,11 +2837,11 @@ Source: www.kingbright.com</description>
 <instance part="ESC4" gate="A" x="-35.56" y="-10.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="-39.7256" y="9.9314" size="2.0828" layer="95" ratio="6" rot="SR180"/>
 </instance>
-<instance part="600" gate="G$1" x="-55.88" y="53.34" smashed="yes">
+<instance part="R1" gate="G$1" x="-55.88" y="53.34" smashed="yes">
 <attribute name="NAME" x="-55.88" y="54.864" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-55.88" y="51.816" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="HOPE" gate="G$1" x="-45.72" y="53.34" smashed="yes" rot="R90">
+<instance part="12V_LED" gate="G$1" x="-45.72" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="-41.148" y="56.896" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-41.148" y="59.055" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -2855,7 +2865,7 @@ Source: www.kingbright.com</description>
 <label x="27.94" y="-10.16" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="600" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="-60.96" y1="53.34" x2="-63.5" y2="53.34" width="0.1524" layer="91"/>
 <label x="-63.5" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2874,7 +2884,7 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="-40.64" y1="53.34" x2="-38.1" y2="53.34" width="0.1524" layer="91"/>
 <label x="-38.1" y="53.34" size="1.778" layer="95" xref="yes"/>
-<pinref part="HOPE" gate="G$1" pin="C"/>
+<pinref part="12V_LED" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <pinref part="PWR" gate="G$1" pin="NC"/>
@@ -2885,6 +2895,11 @@ Source: www.kingbright.com</description>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="-40.64" y1="-53.34" x2="-38.1" y2="-53.34" width="0.1524" layer="91"/>
 <label x="-38.1" y="-53.34" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="-40.64" y1="-33.02" x2="-38.1" y2="-33.02" width="0.1524" layer="91"/>
+<label x="-38.1" y="-33.02" size="1.778" layer="95" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="SHIELD"/>
 </segment>
 </net>
 <net name="ESC3A" class="0">
@@ -3119,9 +3134,9 @@ Source: www.kingbright.com</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="600" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="-50.8" y1="53.34" x2="-48.26" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="HOPE" gate="G$1" pin="A"/>
+<pinref part="12V_LED" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>
