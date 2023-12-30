@@ -2800,7 +2800,7 @@ Source: www.kingbright.com</description>
 <part name="ESC2" library="X16-ESC-Adapter" deviceset="CONN_1824750000" device=""/>
 <part name="ESC3" library="X16-ESC-Adapter" deviceset="CONN_1824750000" device=""/>
 <part name="ESC4" library="X16-ESC-Adapter" deviceset="CONN_1824750000" device=""/>
-<part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="600"/>
+<part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-0603-1/3W-1%" package3d_urn="urn:adsk.eagle:package:41389018/1" value="0.1"/>
 <part name="12V_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="J1" library="X16-ESC-Adapter" deviceset="BM08B-SRSS-TB(LF)(SN)" device=""/>
 </parts>
